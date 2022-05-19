@@ -1,0 +1,176 @@
+
+#login{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding:10px;
+    background-color:maroon;
+    color: orange;
+    height: 80%;
+}
+#ribbon{
+    width: 70%;
+    margin-left: 15%;
+}
+.bg {
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  nav{
+      background-color: rgb(68, 64, 57);
+  }
+  nav ul{
+    display: flex;
+    margin-left: 10%;
+  }
+  nav ul li{
+      padding:15px;
+      margin-left: 5%;
+      list-style: none;
+      text-decoration: none;
+  }
+nav ul li a{
+    text-transform: uppercase;
+    color: cornsilk;
+}
+nav ul li a:hover {
+    color: orange;
+  }
+.right{
+    margin-left: 1%;
+}
+.panel{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    padding:20px;
+    background-color: transparent;
+}
+.inside{
+    padding:10px;
+    margin-left: 10%;
+    width:20%;
+}
+.dash_links{
+    text-decoration: none;
+    
+}
+.tabs{
+    display:flex;
+}
+.panel1{
+    margin-left: 5%;
+    width: 42%;
+    background-color: rgb(68, 64, 57);
+    padding:10px;
+    margin-bottom: 5%;
+    color: orange;
+}
+.panel2{
+    display: flex;
+}
+.panel3{
+    padding: 3px;
+    margin-left: 18%;
+}
+.panel4{
+   background-color:darkslateblue; 
+   margin-bottom: 3%;
+}
+.buttons{
+    margin-left: 25%;
+    display: flex;
+}
+.buttons1{
+    margin-left: 12%;
+}
+.houses{
+    width: 30%;
+    margin-left: 35%;
+}
+.pan1{
+    margin-left: 10%;
+    width: 80%;
+    background-color: rgb(68, 64, 57);
+    padding:10px;
+    margin-bottom: 5%;
+    color: orange;
+}
+#form{
+    width:50%;
+    margin-left: 25%;
+}
+.panel6{
+    margin-left: 5%;
+    width: 50%;
+    background-color: rgb(68, 64, 57);
+    padding:10px;
+    margin-bottom: 5%;
+    color: orange;
+}
+.panel7{
+    margin-left: 5%;
+    width: 30%;
+    background-color: rgb(68, 64, 57);
+    padding:10px;
+    margin-bottom: 5%;
+    color: orange;
+}
+.panel8{
+    margin-left: 25%;
+    width: 50%;
+    background-color: rgb(68, 64, 57);
+    padding:10px;
+    margin-bottom: 5%;
+    color: orange;
+}
+.pan2{
+    margin-left: 1%;
+    width: 60%;
+    background-color: rgb(68, 64, 57);
+    padding:10px;
+    margin-bottom: 5%;
+    color: orange;
+}
+.pan3{
+    margin-left: 1%;
+    width: 37%;
+    background-color: rgb(68, 64, 57);
+    padding:1px;
+    margin-bottom: 5%;
+    color: orange;
+}
+.pan4{
+    margin-left: 25%;
+    width: 50%;
+    background-color: rgb(68, 64, 57);
+    padding:1px;
+    margin-bottom: 5%;
+    color: orange;
+}
+.pan5{
+    margin-left: 15%;
+    width: 70%;
+    background-color: rgb(68, 64, 57);
+    padding:1px;
+    margin-bottom: 5%;
+    color: orange;
+}
+.pan411{
+    padding: 0;
+    display: flex;
+    width: 100%;
+    
+}
+.pan41{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+#form2{
+    width:80%;
+    margin-left: 10%;
+}

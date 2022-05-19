@@ -1,0 +1,68 @@
+#login{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding:10px;
+    background-color:rgb(68, 64, 57);
+    color: orange;
+    height: 80%;
+}
+#ribbon{
+    width: 70%;
+    margin-left: 15%;
+}
+.bg {
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  nav{
+      background-color: rgb(68, 64, 57);
+  }
+  nav ul{
+    display: flex;
+    margin-left: 10%;
+  }
+  nav ul li{
+      padding:15px;
+      margin-left: 5%;
+      list-style: none;
+      text-decoration: none;
+  }
+nav ul li a{
+    text-transform: uppercase;
+    color: cornsilk;
+}
+nav ul li a:hover {
+    color: orange;
+  }
+.right{
+    margin-left: 14%;
+}
+.panel{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    padding:20px;
+    background-color: transparent;
+}
+.inside{
+    padding:10px;
+    margin-left: 10%;
+    width:30%;
+}
+.dash_links{
+    text-decoration: none;
+    
+}
+.tabs{
+    display:flex;
+}
+.panel1{
+    margin-left: 5%;
+    width: 40%;
+    background-color: burlywood;
+    height: 300px;
+}
