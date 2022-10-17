@@ -12,7 +12,7 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'GET',
   CURLOPT_HTTPHEADER => array(
-    'Authorization: Basic OFYwNmtQWk9PekNDQXN5WWc3czZWTFAyWXlrR2oxdVc6U3NpQ0ZwSEJVckRVNkpENQ=='
+    'Authorization: Basic '
   ),
 ));
 
