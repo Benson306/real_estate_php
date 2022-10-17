@@ -157,7 +157,7 @@ if(isset($_SESSION['email'])){
                 $curl = curl_init();
 
                 curl_setopt_array($curl, array(
-                CURLOPT_URL => 'https://api.twilio.com/2010-04-01/Accounts/AC76dab6b4c5d122f9d1ed64c2f54d1053/Messages.json?',
+                CURLOPT_URL => 'https://api.twilio.com/2010-04-01/Accounts/<ACCOUNT SID>/Messages.json?',
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_ENCODING => '',
                 CURLOPT_MAXREDIRS => 10,
@@ -167,7 +167,7 @@ if(isset($_SESSION['email'])){
                 CURLOPT_CUSTOMREQUEST => 'POST',
                 CURLOPT_POSTFIELDS => 'To=%2B254707357072&Body=Dear Tenant, Your rent bill for this month is Ksh.'.$rent.'. , water bill is Ksh.'.$water.' and Garbage bill is Ksh.'.$garbage.'. Your total bill is '.$total.'   - Elite Realtors&From=%2B19593002841',
                 CURLOPT_HTTPHEADER => array(
-                    'Authorization: Basic QUM3NmRhYjZiNGM1ZDEyMmY5ZDFlZDY0YzJmNTRkMTA1Mzo3MjNkZTExYzY1ZTVkNDcxODhmYmIxMDViMTgyM2VmMA==',
+                    'Authorization: Basic ',
                     'Content-Type: application/x-www-form-urlencoded'
                 ),
                 ));
@@ -279,7 +279,7 @@ if(isset($_SESSION['email'])){
                 $curl = curl_init();
 
                 curl_setopt_array($curl, array(
-                CURLOPT_URL => 'https://api.twilio.com/2010-04-01/Accounts/AC76dab6b4c5d122f9d1ed64c2f54d1053/Messages.json?',
+                CURLOPT_URL => 'https://api.twilio.com/2010-04-01/Accounts/<ACCOUNT SID>/Messages.json?',
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_ENCODING => '',
                 CURLOPT_MAXREDIRS => 10,
@@ -289,7 +289,7 @@ if(isset($_SESSION['email'])){
                 CURLOPT_CUSTOMREQUEST => 'POST',
                 CURLOPT_POSTFIELDS => 'To=%2B'.$number.'&Body=Dear Tenant, Your monthly bill for '.$month1.' has been corrected, Rent is Ksh.'.$rent.' , water bill is Ksh.'.$water.' and Garbage bill is Ksh.'.$garbage.'. Your total bill is '.$total.'   - Elite Realtors&From=%2B18646252846',
                 CURLOPT_HTTPHEADER => array(
-                    'Authorization: Basic QUM3NmRhYjZiNGM1ZDEyMmY5ZDFlZDY0YzJmNTRkMTA1Mzo3MjNkZTExYzY1ZTVkNDcxODhmYmIxMDViMTgyM2VmMA==',
+                    'Authorization: Basic ',
                     'Content-Type: application/x-www-form-urlencoded'
                 ),
                 ));
